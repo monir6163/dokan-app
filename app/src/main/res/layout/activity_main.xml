@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/buyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="কেনা দাম কত?" />
+
+    <EditText
+        android:id="@+id/buyPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="কেনা দাম লিখুন"
+        />
+
+    <TextView
+        android:id="@+id/sellTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="কত টাকায় বিক্রি করেছেন?" />
+
+    <EditText
+        android:id="@+id/sellPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="কত টাকায় বিক্রি করেছেন লিখুন"
+        />
+
+    <Button
+        android:id="@+id/buttonCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="হিসাব করুন" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20sp"
+        android:textSize="16sp"
+        android:text="" />
+</LinearLayout>
